@@ -1,3 +1,4 @@
+/*Body Style Display flex will control for screen size*/
 body {
   display: flex;
   align-items: center;
@@ -6,15 +7,16 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/*I wanted padding around the paragraph text*/
 p
 {
 	padding: 3px 8px 3px 8px;	
 }
+/* Keeps the h4 text aligned in the center */
 h4 {
 	text-align: center
 }
-
-
+/* Sets the wrapper style You can see it at the back of the pages*/
 .wrapper {
   background-color: black; 
   max-width: 100%;
@@ -24,7 +26,7 @@ h4 {
   height: 80%;
   padding: 10px 10px 10px 10px;
 }
-
+/* Sets Left and Right style for both*/
 .left, .right {
   background-color: silver;
   margin: 5px;
@@ -34,41 +36,42 @@ h4 {
   /* justify-content: center; */
   padding: 10px 10px 10px 10px;	
 }
-
+/* Sets Left specific style */
 .left {
   max-width: 15%;
   align-items: left;
   justify-content: top;
 }
+/* Sets Right specific style */
 .right {
   max-width: 85%;
   align-items: center;
   justify-content: center;
 }
+/* Puts a round look around profile pictures */
 .profile-picture {
   border-radius: 50%;
 }
+/*  Unordered List Styles */
 ul:before{
     content:attr(aria-label);
     font-size:120%;
     font-weight:bold;
     margin-left:-15px;
 }
+/* Setting the Style for hyper-links */
 /* unvisited link */
 a:link {
   color: darkblue;
 }
-
 /* visited link */
 a:visited {
   color: royalblue;
 }
-
 /* mouse over link */
 a:hover {
   color: blueviolet;
 }
-
 /* selected link */
 a:active {
   color: blue;
