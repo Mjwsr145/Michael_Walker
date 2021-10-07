@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+p
+{
+	padding: 3px 8px 3px 8px;	
+}
+h4 {
+	text-align: center
+}
+
+
+.wrapper {
+  background-color: black; 
+  max-width: 100%;
+  width: 1200px;	
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  padding: 10px 10px 10px 10px;
+}
+
+.left, .right {
+  background-color: silver;
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 10px 10px 10px 10px;	
+}
+
+.left {
+  max-width: 15%;
+  align-items: left;
+  justify-content: top;
+}
+.right {
+  max-width: 85%;
+  align-items: center;
+  justify-content: center;
+}
+.profile-picture {
+  border-radius: 50%;
+}
+ul:before{
+    content:attr(aria-label);
+    font-size:120%;
+    font-weight:bold;
+    margin-left:-15px;
+}
+/* unvisited link */
+a:link {
+  color: darkblue;
+}
+
+/* visited link */
+a:visited {
+  color: royalblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: blueviolet;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
