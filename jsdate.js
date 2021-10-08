@@ -2,5 +2,5 @@
 function myDate(){
     var today = new Date();
     var myDate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    document.getElementById('formDate').innerHTML= myDate;
+    document.getElementById('formDate').innerHTML="<b>Today is<b><br>" + "<b>" + myDate + "<b>";
 }
