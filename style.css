@@ -7,28 +7,15 @@ body {
   margin: 0px;
   padding: 0px;
 }
-<<<<<<< HEAD
-
-=======
-/*I wanted padding around the paragraph text*/
->>>>>>> 1cff44bbeb8de4191d78c900cb99859daaf47f9b
 p
 {
 	padding: 3px 8px 3px 8px;	
 }
-<<<<<<< HEAD
 
 h4 {
 	text-align: center
 }
 
-=======
-/* Keeps the h4 text aligned in the center */
-h4 {
-	text-align: center
-}
-/* Sets the wrapper style You can see it at the back of the pages*/
->>>>>>> 1cff44bbeb8de4191d78c900cb99859daaf47f9b
 .wrapper {
   background-color: black; 
   max-width: 100%;
